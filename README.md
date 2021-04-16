@@ -1,9 +1,9 @@
-# DELL 3020 USFF hackintosh opencore
+# DELL OptiPlex 3020 USFF hackintosh opencore
 
-![m83](m83.webp)
+![dell](dell.jpeg)
 
 ```
-Model              DELL 3020 USFF
+Model              DELL OptiPlex 3020 USFF
 Mainboard          Intel H81 Chipset
 CPU                Intel Core i3-4130
 Memory             8G DDR3 1600MHz DDR3 (4GB+4GB)
