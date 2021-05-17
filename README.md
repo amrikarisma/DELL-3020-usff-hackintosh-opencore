@@ -24,12 +24,28 @@ Serial Number : Please use your own serial number or regenerate.
 
 
 
-Bahasa :
+## Screenshot
 
-- [BIOS]()
-- asda
+![screenshot1](/Users/amri/Documents/Project/Gabut/DELL-9020-usff-hackintosh-opencore/screenshot1.png)
 
+## EFI
 
+Bagi pengguna Dell Optiplex 9020 bisa menggunakan file EFI yang sudah disediakan. Dengan mendownloadnya dan copy ke flash drive.
+
+## Edit config.plist
+
+Didalam file EFI/OC kalian akan melihat file bernama config.plist yang berisi sebuah konfigurasi pada EFI yang telah dibuat. Namun kalian tetap harus melakukan edit file ini ya karena ada data yang unik untuk setiap pengguannya.
+
+Apa data yang harus di edit?
+
+```
+PlatformInfo -> Generic -> MLB
+PlatformInfo -> Generic -> ROM
+PlatformInfo -> Generic -> SystemSerialNumber
+PlatformInfo -> Generic -> SystemUUID
+```
+
+Untuk mengisi data diatas kalian bisa generate datanya menggunakan tools yang sudah disediakan yang bernama [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS). Pilih `3` dan masukan SMBIOS kalian, disini saya menggunakan `iMAC15,1` seperti yang sudah tertulis pada file config.plist. Silakan sesuaikan dengan pengetahuan kalian jika ingin menggunakan SMBIOS yang berbeda.
 
 ## BIOS Setting
 
