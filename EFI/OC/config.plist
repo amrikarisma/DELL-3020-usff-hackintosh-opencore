@@ -569,7 +569,7 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02421501QXG2Y7CB</string>
+			<string></string>
 			<key>ROM</key>
 			<data>ABEiM0RV</data>
 			<key>SpoofVendor</key>
@@ -577,9 +577,9 @@
 			<key>SystemProductName</key>
 			<string>iMac15,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02MRAYEFY10</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>FCAF2433-CD47-4FAE-9C20-DF707CC4CFAF</string>
+			<string></string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
