@@ -26,7 +26,7 @@ Serial Number : Please use your own serial number or regenerate.
 
 ## Screenshot
 
-![screenshot1](/Users/amri/Documents/Project/Gabut/DELL-9020-usff-hackintosh-opencore/screenshot1.png)
+![screenshot1](screenshot1.png)
 
 ## EFI
 
