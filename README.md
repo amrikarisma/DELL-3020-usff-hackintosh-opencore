@@ -1,8 +1,8 @@
 # DELL OptiPlex 9020 USFF hackintosh opencore (Support Catalina & Big Sur)
 
-## My Specs
-
 ![dell](dell.jpeg)
+
+## My Specs
 
 ```
 Model              DELL OptiPlex 9020 USFF
