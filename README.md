@@ -1,11 +1,13 @@
-# DELL OptiPlex 9020 USFF hackintosh opencore
+# DELL OptiPlex 9020 USFF hackintosh opencore (Support Catalina & Big Sur)
+
+## My Specs
 
 ![dell](dell.jpeg)
 
 ```
 Model              DELL OptiPlex 9020 USFF
 Mainboard          Chipset Intel® Q87 Express Chipset
-CPU                Intel Core i3-4130
+CPU                Intel Core i5-4460 @3.2Ghz with turbo up to 3.4Ghz
 Memory             12GB DDR3 1600MHz DDR3 (8GB+4GB)
 Graphics           Intel HD Graphics 4600
 Audio              Intel Realtek ALC3220 High Definition Audio
