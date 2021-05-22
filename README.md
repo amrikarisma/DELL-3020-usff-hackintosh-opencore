@@ -1,6 +1,8 @@
+
+
 # DELL OptiPlex 9020 USFF hackintosh opencore (Support Catalina & Big Sur)
 
-![dell](dell.jpeg)
+![dell](images/dell.jpeg)
 
 ## My Specs
 
@@ -28,7 +30,7 @@ Serial Number : Please use your own serial number or regenerate.
 
 ## Screenshot
 
-![screenshot1](screenshot1.png)
+![screenshot1](images/screenshot1.png)
 
 ## EFI
 
@@ -48,6 +50,22 @@ PlatformInfo -> Generic -> SystemUUID
 ```
 
 Untuk mengisi data diatas kalian bisa generate datanya menggunakan tools yang sudah disediakan yang bernama [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS). Pilih `3` dan masukan SMBIOS kalian, disini saya menggunakan `iMAC15,1` seperti yang sudah tertulis pada file config.plist. Silakan sesuaikan dengan pengetahuan kalian jika ingin menggunakan SMBIOS yang berbeda.
+
+
+
+![Screen Shot 2021-05-23 at 06.00.08](images/Screen Shot 2021-05-23 at 06.00.08.png)
+
+![Screen Shot 2021-05-23 at 06.10.06](/Users/amri/Documents/Hackintosh/DELL-9020-usff-hackintosh-opencore/images/Screen Shot 2021-05-23 at 06.10.06.png)
+
+![Screen Shot 2021-05-23 at 06.06.38](/Users/amri/Documents/Hackintosh/DELL-9020-usff-hackintosh-opencore/images/Screen Shot 2021-05-23 at 06.06.38.png)
+
+![Screen Shot 2021-05-23 at 06.12.57](/Users/amri/Documents/Hackintosh/DELL-9020-usff-hackintosh-opencore/images/Screen Shot 2021-05-23 at 06.12.57.png)
+
+![Screen Shot 2021-05-23 at 06.14.39](/Users/amri/Documents/Hackintosh/DELL-9020-usff-hackintosh-opencore/images/Screen Shot 2021-05-23 at 06.14.39.png)
+
+![Screen Shot 2021-05-23 at 06.15.19](/Users/amri/Documents/Hackintosh/DELL-9020-usff-hackintosh-opencore/images/Screen Shot 2021-05-23 at 06.15.19.png)
+
+![Screen Shot 2021-05-23 at 06.15.26](/Users/amri/Documents/Hackintosh/DELL-9020-usff-hackintosh-opencore/images/Screen Shot 2021-05-23 at 06.15.26.png)
 
 ## BIOS Setting
 
