@@ -55,17 +55,17 @@ Untuk mengisi data diatas kalian bisa generate datanya menggunakan tools yang su
 
 ![Screen Shot 2021-05-23 at 06.00.08](images/Screen Shot 2021-05-23 at 06.00.08.png)
 
-![Screen Shot 2021-05-23 at 06.10.06](/Users/amri/Documents/Hackintosh/DELL-9020-usff-hackintosh-opencore/images/Screen Shot 2021-05-23 at 06.10.06.png)
+![Screen Shot 2021-05-23 at 06.10.06](images/Screen Shot 2021-05-23 at 06.10.06.png)
 
-![Screen Shot 2021-05-23 at 06.06.38](/Users/amri/Documents/Hackintosh/DELL-9020-usff-hackintosh-opencore/images/Screen Shot 2021-05-23 at 06.06.38.png)
+![Screen Shot 2021-05-23 at 06.06.38](images/Screen Shot 2021-05-23 at 06.06.38.png)
 
-![Screen Shot 2021-05-23 at 06.12.57](/Users/amri/Documents/Hackintosh/DELL-9020-usff-hackintosh-opencore/images/Screen Shot 2021-05-23 at 06.12.57.png)
+![Screen Shot 2021-05-23 at 06.12.57](images/Screen Shot 2021-05-23 at 06.12.57.png)
 
-![Screen Shot 2021-05-23 at 06.14.39](/Users/amri/Documents/Hackintosh/DELL-9020-usff-hackintosh-opencore/images/Screen Shot 2021-05-23 at 06.14.39.png)
+![Screen Shot 2021-05-23 at 06.14.39](images/Screen Shot 2021-05-23 at 06.14.39.png)
 
-![Screen Shot 2021-05-23 at 06.15.19](/Users/amri/Documents/Hackintosh/DELL-9020-usff-hackintosh-opencore/images/Screen Shot 2021-05-23 at 06.15.19.png)
+![Screen Shot 2021-05-23 at 06.15.19](images/Screen Shot 2021-05-23 at 06.15.19.png)
 
-![Screen Shot 2021-05-23 at 06.15.26](/Users/amri/Documents/Hackintosh/DELL-9020-usff-hackintosh-opencore/images/Screen Shot 2021-05-23 at 06.15.26.png)
+![Screen Shot 2021-05-23 at 06.15.26](images/Screen Shot 2021-05-23 at 06.15.26.png)
 
 ## BIOS Setting
 
