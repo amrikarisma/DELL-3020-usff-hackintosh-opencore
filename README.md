@@ -12,7 +12,7 @@ Memory             12GB DDR3 1600MHz DDR3 (8GB+4GB)
 Graphics           Intel HD Graphics 4600
 Audio              Intel Realtek ALC3220 High Definition Audio
 Ethernet           Intel I217LM
-Wi-Fi              BCM943224 with converter to m-PCIE (Optional)
+Wi-Fi              BCM94360CS2 with converter to MINI PCI-E (Optional)
 BIOS Version       A25 (Mandatory)
 macOS Version      Catalina 10.15.7
 OpenCore Version   0.6.7 -> 0.6.9 (updated) 
@@ -32,7 +32,7 @@ Serial Number : Please use your own serial number or regenerate.
 
 ## EFI
 
-Bagi pengguna Dell Optiplex 9020 bisa menggunakan file EFI yang sudah disediakan. Dengan mendownloadnya dan copy ke flash drive.
+Bagi pengguna Dell Optiplex 9020 bisa menggunakan file EFI yang sudah disediakan. Disini tersedia 2 pilihan SMBIOS (iMac 15,1 dan Macmini 7,1) silahkan pilih sendiri. Dengan mendownloadnya dan copy ke flash drive.
 
 ## Edit config.plist
 
@@ -78,7 +78,7 @@ VT for Direct I/O -> Disabled (see below if you need it enabled)
 ## Booting
 
 - Clear NVRAM
-- Pilih modGRUBShell.efi (makan akan muncul shell dimana kalian bisa ekesusi beberapa perintah di tahap berikutnya)
+- Pilih modGRUBShell.efi (maka akan muncul shell dimana kalian bisa ekesusi beberapa perintah di tahap berikutnya)
 
 ## Disable CFG Lock
 
@@ -90,7 +90,7 @@ Sayangnya di Dell Optiplex 9020 ini kita tidak bisa mengubah alokasi memory untu
 
 Untuk mengatur agar alokasi memori ini menjadi 64MB caranya dengan mengetikan perintah `setup_var 0x263 0x2`  dari *default*-nya yang hanya sudah diatur pada 0x1 dengan alokasi memori sebesar 32MB.
 
-## Enable EHCI hand-off
+## Enable EHCI hand-off (iMac 15,1 only)
 
 Silakan ikuti saja perintah dibawah ini utuk berikutnya. 
 
