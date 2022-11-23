@@ -1,6 +1,4 @@
-
-
-# DELL OptiPlex 9020 USFF hackintosh opencore (Support Catalina & Big Sur)
+# DELL OptiPlex 9020 USFF hackintosh opencore (Support Catalina, Big Sur & Monterey)
 
 ![dell](images/dell.jpeg)
 
@@ -10,26 +8,27 @@
 Model              DELL OptiPlex 9020 USFF
 Mainboard          Chipset Intel® Q87 Express Chipset
 CPU                Intel Core i5-4460 @3.2Ghz with turbo up to 3.4Ghz
-Memory             12GB DDR3 1600MHz DDR3 (8GB+4GB)
+Memory             8GB DDR3 1600MHz DDR3 (8GB+4GB)
 Graphics           Intel HD Graphics 4600
 Audio              Intel Realtek ALC3220 High Definition Audio
 Ethernet           Intel I217LM
 Wi-Fi              BCM94360CS2 with converter to MINI PCI-E (Optional)
 BIOS Version       A25 (Mandatory)
-macOS Version      Bigsur 11.17.1
-OpenCore Version   0.6.7 -> 0.6.9 (updated) 
+macOS Version      BigSur 11.17.1 -> Monterey 12.6.1
+OpenCore Version   0.6.9 - 0.8.6 (updated)
 ```
-Note : 
+
+Note :
+
 ```
 Intel HD 4600 : Please use DisplayPort (Harware Acceleration not working if connect monitor via VGA/D-SUB Port)
 
 Serial Number : Please use your own serial number or regenerate.
 ```
 
-
-
 ## Screenshot
 
+![screenshot2](images/screenshot1.png)
 ![screenshot1](images/screenshot1.png)
 
 ## EFI
@@ -71,7 +70,7 @@ Bios diwajibkan menggunakan versi terbaru, untuk dell optiplex 9020 bisa menggun
 
 **General**
 Boot Sequence -> Boot List Option -> UEFI
-Advanced Boot Options -> check box- *Enable Legacy Option ROMs*
+Advanced Boot Options -> check box- _Enable Legacy Option ROMs_
 UEFI Boot Path Security -> Set to Never
 
 **System Configuration**
@@ -104,11 +103,11 @@ Untuk men-disable CFG Lock pada dell optiplex 9020 kalian bisa memasukan perinta
 
 Sayangnya di Dell Optiplex 9020 ini kita tidak bisa mengubah alokasi memory untuk VGA integraded intel HD pada BIOS. Tidak seperti umumnya perangkat komputer yang bisa dengan mudah menggantinya pada pengaturan BIOS.
 
-Untuk mengatur agar alokasi memori ini menjadi 64MB caranya dengan mengetikan perintah `setup_var 0x263 0x2`  dari *default*-nya yang hanya sudah diatur pada 0x1 dengan alokasi memori sebesar 32MB.
+Untuk mengatur agar alokasi memori ini menjadi 64MB caranya dengan mengetikan perintah `setup_var 0x263 0x2` dari _default_-nya yang hanya sudah diatur pada 0x1 dengan alokasi memori sebesar 32MB.
 
-## Enable EHCI hand-off (iMac 15,1 only)
+## Enable EHCI hand-off
 
-Silakan ikuti saja perintah dibawah ini utuk berikutnya. 
+Silakan ikuti saja perintah dibawah ini utuk berikutnya.
 
 `Sebelumnya pastikan BIOS sudah menggunakan versi terbaru jika tidak port usb akan tidak berfungsi.`
 
@@ -116,11 +115,11 @@ Silakan ikuti saja perintah dibawah ini utuk berikutnya.
 
 `setup_var 0x144 0x1` = XHCI enable mode
 
-`setup_var 0x15A 0x2`	= Route EHCx ports to XHCI
+`setup_var 0x15A 0x2` = Route EHCx ports to XHCI
 
 `setup_var 0x146 0x0` = Disable EHCx ports
 
-`setup_var 0x147 0x0`	= Disable EHCX ports
+`setup_var 0x147 0x0` = Disable EHCX ports
 
 ## Installing
 
