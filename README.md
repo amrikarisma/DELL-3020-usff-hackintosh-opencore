@@ -28,7 +28,7 @@ Serial Number : Please use your own serial number or regenerate.
 
 ## Screenshot
 
-![screenshot2](images/screenshot1.png)
+![screenshot2](images/screenshot2.png)
 ![screenshot1](images/screenshot1.png)
 
 ## EFI
