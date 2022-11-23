@@ -16,7 +16,7 @@ Audio              Intel Realtek ALC3220 High Definition Audio
 Ethernet           Intel I217LM
 Wi-Fi              BCM94360CS2 with converter to MINI PCI-E (Optional)
 BIOS Version       A25 (Mandatory)
-macOS Version      Catalina 10.15.7
+macOS Version      Bigsur 11.17.1
 OpenCore Version   0.6.7 -> 0.6.9 (updated) 
 ```
 Note : 
